@@ -1,0 +1,161 @@
+@font-face{
+  font-family:"Young Serif";
+  src:url("../assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("../assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+@media only screen and (max-width: 380px) {
+  html{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+  body {
+    width: 100%;
+    padding: 0!important;
+    height: 100%;
+  }
+  #main {
+    width: calc(100% - 20px)!important; 
+    font-size: 16px;
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Outfit';
+    margin-top: -30px!important;
+  }
+  .attribution
+  {
+    display: none;
+  }
+  #main > #photo
+  {
+    display: none;
+  }
+  #main > #photo-mobile
+ {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+ }
+ #main > #preperation-time > .list 
+ {
+  margin-left: 0%;
+ }
+ #main > #nutrition > ul > li .titl
+{
+  width: 100px;
+  color: black;
+  font-weight: 400;
+  margin-left: 5%;
+}
+}
+body{
+ display: flex;
+ flex-direction: column;
+ background-color: hsl(30, 54%, 90%);
+ align-items: center;
+}
+#photo-mobile
+{
+  display: none;
+}
+#main{
+  width: 60%;
+  font-size: 16px;
+  background-color:hsl(0, 0%, 100%);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 3%;
+  font-family:'Outfit';
+}
+#main > *{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#main > #photo
+{
+  width: 100%;
+  border-radius: 10px;
+}
+#main li{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#main li::marker{
+  color:hsl(332, 51%, 32%);
+  list-style-position: inside;
+  list-style-type: square;
+}
+#main span
+{
+  font-weight: 500;
+}
+#main ul{
+  list-style-type: square;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 8;
+}
+#main > #title{
+  font-family: "Young Serif";
+  font-weight: 100!important;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+#main .title{
+  color: hsl(332, 51%, 32%);
+  font-family: "Young Serif";
+  font-weight: 400;
+  font-size: 22px;
+}
+#main > #preperation-time
+{
+  background-color: hsl(330, 100%, 98%);
+  padding: 2%;
+  border-radius: 10px;
+}
+#main > #preperation-time > #time
+{
+  color: hsl(332, 51%, 32%);
+  font-size:18px;
+}
+#main > #preperation-time > .list 
+{
+  width: 98%;
+  padding-left: 0px;
+}
+#main > #preperation-time > .list > ul
+{
+  margin-left: 5%;
+}
+#main > #nutrition > ul
+{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+}
+
+#main > #nutrition > ul > li 
+{
+  display: flex;
+}
+#main > #nutrition > ul > li hr
+{
+  width: 100%;
+  margin: 0;
+}
+#main > #nutrition > ul > li div 
+{
+  font-weight: 600;
+  color: hsl(332, 51%, 32%);
+}
+#main > #nutrition > ul > li .titl
+{
+  width: 600px;
+  color: black;
+  font-weight: 400;
+  margin-left: 5%;
+}
+
+
